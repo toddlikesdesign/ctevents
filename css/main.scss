@@ -1832,3 +1832,22 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 	}
+
+/* Custom CSS */
+
+.spotlight:nth-child(1) {
+	background-color:#A4B855;
+}
+
+.spotlight:nth-child(2) {
+	background-color:#7F9B13;
+}
+
+.spotlight:nth-child(3) {
+	background-color:#76B23D;
+}
+
+.wrapper.style3 {
+	background: #505393 url(../images/elephant.png) -50% top no-repeat;
+	background-size: 60%;
+}
