@@ -169,7 +169,7 @@ $baseurl: '{{ site.baseurl }}/images';
 	blockquote {
 		border-left: solid 4px _palette(border);
 		font-style: italic;
-		margin: 0 0 _size(element-margin) 0;
+		margin: 3em 0 1em 0;
 		padding: 0.5em 0 0.5em 2em;
 	}
 
@@ -1272,7 +1272,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	#page-wrapper {
 		@include vendor('transition', 'opacity #{_duration(menu)} ease');
-		opacity: 1;
+		opacity: 0.9;
 		padding-top: 3em;
 
 		&:before {
@@ -1490,18 +1490,14 @@ $baseurl: '{{ site.baseurl }}/images';
 		text-align: center;
 
 		h2 {
-			@include vendor('transform', 'scale(1)');
-			@include vendor('transition', ('transform 0.5s ease', 'opacity 0.5s ease'));
 			display: inline-block;
 			font-size: 1.75em;
-			opacity: 1;
+			opacity: 0.9;
 			padding: 0.35em 1em;
 			position: relative;
 			z-index: 1;
 
 			&:before, &:after {
-				@include vendor('transition', 'width 0.85s ease');
-				@include vendor('transition-delay', '0.25s');
 				background: _palette(fg-bold);
 				content: '';
 				display: block;
@@ -1531,9 +1527,6 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		.more {
-			@include vendor('transition', ('transform 0.75s ease', 'opacity 0.75s ease'));
-			@include vendor('transition-delay', '3.5s');
-			@include vendor('transform', 'translateY(0)');
 			border: none;
 			bottom: 0;
 			color: inherit;
@@ -1542,7 +1535,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			left: 50%;
 			letter-spacing: _size(letter-spacing-alt);
 			margin-left: -8.5em;
-			opacity: 1;
+			opacity: 0.9;
 			outline: 0;
 			padding-left: _size(letter-spacing-alt);
 			position: absolute;
@@ -1565,21 +1558,6 @@ $baseurl: '{{ site.baseurl }}/images';
 				position: absolute;
 				width: 1.5em;
 			}
-		}
-
-		&:after {
-			@include vendor('pointer-events', 'none');
-			@include vendor('transition', 'opacity #{_duration(fadein)} ease-in-out');
-			@include vendor('transition-delay', '1.25s');
-			content: '';
-			background: _palette(bg);
-			display: block;
-			width: 100%;
-			height: 100%;
-			position: absolute;
-			left: 0;
-			top: 0;
-			opacity: 0;
 		}
 
 		@include breakpoint(small) {
@@ -1618,7 +1596,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 
 			&:after {
-				opacity: 1;
+				opacity: 0.9;
 			}
 		}
 	}
@@ -1857,7 +1835,6 @@ $baseurl: '{{ site.baseurl }}/images';
 }
 
  .wrapper.style1 {
-	height: 1500px;
 	background-color: transparent;
 }
 
@@ -1877,43 +1854,43 @@ $baseurl: '{{ site.baseurl }}/images';
 
 .corporate {
 	background: url(../images/corporate.jpg) -45px -277px no-repeat;
-	opacity: 0.4;;
+	opacity: 0.9;;
 }
 
 
 .grandopenings {
 	background: url(../images/grandopenings.jpg) -45px -277px no-repeat;
-	opacity: 0.4;;
+	opacity: 0.9;;
 }
 
 
 .awards {
 	background: url(../images/awards.jpg) no-repeat;
-	opacity: 0.4;
+	opacity: 0.9;
 }
 
 .productlaunches {
 	background: url(../images/productlaunches.jpg) -338px -324px no-repeat;
-	opacity: 0.4;
+	opacity: 0.9;
 }
 
 .groundbreakings {
 	background: url(../images/groundbreakings.jpg)  -240px -370px no-repeat;
-	opacity: 0.4;
+	opacity: 0.9;
 }
 
 .nonprofit {
 	background: url(../images/nonprofit.jpg) -315px -90px no-repeat;
-	opacity: 0.4;
+	opacity: 0.9;
 }
 
 .privateevents {
 	background: url(../images/privateevents.jpg) -219px -285px no-repeat;
-	opacity: 0.4;
+	opacity: 0.9;
 }
 
 .festivals {
 	background: url(../images/festivals.jpg) -125px -200px no-repeat;
-	opacity: 0.4;
+	opacity: 0.9;
 }
 
