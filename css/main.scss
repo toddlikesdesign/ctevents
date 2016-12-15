@@ -110,8 +110,8 @@ $baseurl: '{{ site.baseurl }}/images';
 	}
 
 	h2 {
-		font-size: 1.35em;
-		line-height: 1.75em;
+		font-size: 3.8em;
+		line-height: 1.25em;
 
 		@include breakpoint(small) {
 			font-size: 1.1em;
@@ -121,7 +121,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	h3 {
 		font-size: 1.15em;
-		line-height: 1.75em;
+		line-height: 1.25em;
 
 		@include breakpoint(small) {
 			font-size: 1em;
@@ -473,7 +473,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			border-radius: 3px;
 			border: solid 2px _palette(border);
 			display: inline-block;
-			font-size: 1.35em;
+			font-size: 2.1em;
 			height: calc(3em + 2px);
 			line-height: 3em;
 			text-align: center;
@@ -854,7 +854,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		&.big {
-			font-size: 1.35em;
+			font-size: 2.1em;
 		}
 
 		&.special {
@@ -1836,13 +1836,84 @@ $baseurl: '{{ site.baseurl }}/images';
 /* Custom CSS */
 
 .spotlight:nth-child(1) {
-	background-color:#A4B855;
+	background-color:#EB39BA;
 }
 
 .spotlight:nth-child(2) {
-	background-color:#7F9B13;
+	background-color:#14476F;
 }
 
 .spotlight:nth-child(3) {
 	background-color:#76B23D;
 }
+
+.wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
+	color:#4e4852;
+	text-transform: none;
+}
+
+.wrapper.style1 header p {
+	color:#fff;
+}
+
+ .wrapper.style1 {
+	height: 1500px;
+	background-color: transparent;
+}
+
+.wrapper.style1 h2 {
+		color: rgba(255, 255, 255, 0.86);
+}
+
+.wrapper.intro {
+	background-color: #84E3DC;
+	padding: 50px;
+}
+
+.wrapper.intro h2 {
+	color: #4e4852;
+	margin:0;
+}
+
+.corporate {
+	background: url(../images/corporate.jpg) -45px -277px no-repeat;
+	opacity: 0.4;;
+}
+
+
+.grandopenings {
+	background: url(../images/grandopenings.jpg) -45px -277px no-repeat;
+	opacity: 0.4;;
+}
+
+
+.awards {
+	background: url(../images/awards.jpg) no-repeat;
+	opacity: 0.4;
+}
+
+.productlaunches {
+	background: url(../images/productlaunches.jpg) -338px -324px no-repeat;
+	opacity: 0.4;
+}
+
+.groundbreakings {
+	background: url(../images/groundbreakings.jpg)  -240px -370px no-repeat;
+	opacity: 0.4;
+}
+
+.nonprofit {
+	background: url(../images/nonprofit.jpg) -315px -90px no-repeat;
+	opacity: 0.4;
+}
+
+.privateevents {
+	background: url(../images/privateevents.jpg) -219px -285px no-repeat;
+	opacity: 0.4;
+}
+
+.festivals {
+	background: url(../images/festivals.jpg) -125px -200px no-repeat;
+	opacity: 0.4;
+}
+
