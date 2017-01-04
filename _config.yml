@@ -3,12 +3,12 @@
 
 # Site settings
 title: Cindy Thompson Events
-description: 
+description: Cindy Thompson, Portland OR, Event Planning
 owner: Cindy Thompson Events # or company name
-first_published: 2016 # if migrating another site, the year of your first publish
-email: your-email@domain.com
+first_published: 2017 # if migrating another site, the year of your first publish
+email: cindy@cindythompsonevents.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://cindythompsonevents.com" # the base hostname & protocol for your site
 social:
   #twitter: https://twitter.com/<username>
   #github: https://github.com/<username>

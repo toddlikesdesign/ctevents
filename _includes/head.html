@@ -2,12 +2,18 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:title" content="Cindy Thompson Event Productions, Portland, OR Event Planner Home" />
+  <meta property="og:description" content="Cindy Thompson, Portland OR, Event Planning" />
+  <meta property="og:url" content="http://www.cindythompsonevents.com/" />
+  <meta name="description" content="Cindy Thompson, Portland OR, Event Planning" />
+  <meta name="keywords" content="Cindy Thompson Event Productions | Portland, OR Event Planner | Portland, OR Event Planning | Portland, OR Events." />
+  <meta charset="utf-8">   
+	<meta name="google-site-verification" content="W7EzOJIM98Bm_vY0tYcqJ1RxIgnCjPupeYx40Cs_2TY" />
   <!--[if lte IE 8]><script src="{{ "/js/ie/html5shiv.js" | prepend: site.baseurl }}"></script><![endif]-->
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}" />
   <!--[if lte IE 8]><link rel="stylesheet" href="{{ "/css/ie8.css" | prepend: site.baseurl }}" /><![endif]-->
   <!--[if lte IE 9]><link rel="stylesheet" href="{{ "/css/ie9.css" | prepend: site.baseurl }}" /><![endif]-->
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 </head>
