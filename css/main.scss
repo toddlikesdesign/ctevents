@@ -1809,7 +1809,7 @@ $baseurl: '{{ site.baseurl }}/images';
 }
 
  .wrapper.style1 {
-	background: url(/images/banner.jpg) center center no-repeat;
+	background-color: transparent;
 }
 
 .wrapper.style1 h2 {
