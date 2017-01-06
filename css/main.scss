@@ -1536,8 +1536,6 @@ $baseurl: '{{ site.baseurl }}/images';
 			@include padding(7em, 3em);
 			height: auto;
 			min-height: 0;
-			background: url(/images/banner.jpg) center center no-repeat;
-			background-size: cover;
 
 			h2 {
 				font-size: 1.25em;
@@ -1809,7 +1807,7 @@ $baseurl: '{{ site.baseurl }}/images';
 }
 
  .wrapper.style1 {
-	background: url(/images/banner.jpg) center center no-repeat;
+	background-color: transparent;
 }
 
 .wrapper.style1 h2 {
