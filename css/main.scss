@@ -1807,7 +1807,7 @@ $baseurl: '{{ site.baseurl }}/images';
 }
 
  .wrapper.style1 {
-	background-color: transparent;
+	background: url("#{$baseurl}/banner.jpg");
 }
 
 .wrapper.style1 h2 {
