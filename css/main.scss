@@ -1239,7 +1239,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		&.style1 {
-			@include wrapper(accent1);
+			background: url("#{$baseurl}/banner.jpg") center center no-repeat;
 		}
 
 		&.style2 {
@@ -1807,7 +1807,7 @@ $baseurl: '{{ site.baseurl }}/images';
 }
 
  .wrapper.style1 {
-	background: transparent;
+	
 }
 
 .wrapper.style1 h2 {
